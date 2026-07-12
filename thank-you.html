@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You — ATLAS Labour Force</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1B2A3D;
+    --navy-deep:#131E2C;
+    --steel:#445366;
+    --amber:#FF7A1A;
+    --amber-deep:#E85D04;
+    --paper:#F6F4EF;
+    --paper-dim:#EBE7DC;
+    --charcoal:#20242B;
+    --line:#D8D3C7;
+    --line-dark:#2E3F53;
+
+    --font-display:'Barlow Condensed', sans-serif;
+    --font-body:'Inter', sans-serif;
+    --font-mono:'IBM Plex Mono', monospace;
+  }
+
+  *{ box-sizing:border-box; margin:0; padding:0; }
+
+  body{
+    font-family:var(--font-body);
+    background:var(--navy);
+    color:var(--paper);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+  }
+
+  a{ color:var(--amber); text-decoration:none; }
+  a:hover{ text-decoration:underline; }
+
+  .wrap{ max-width:600px; margin:0 auto; padding:0 28px; }
+
+  main{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:64px 0;
+  }
+
+  .icon{ width:64px; height:64px; margin:0 auto 28px; }
+
+  .eyebrow{
+    font-family:var(--font-mono);
+    font-size:12.5px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--amber);
+    margin-bottom:14px;
+  }
+
+  h1{
+    font-family:var(--font-display);
+    font-weight:800;
+    text-transform:uppercase;
+    letter-spacing:0.01em;
+    font-size:clamp(30px,4.2vw,44px);
+    margin-bottom:18px;
+  }
+
+  p{
+    font-size:16px;
+    color:#B7C1CE;
+    margin-bottom:32px;
+  }
+
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:var(--amber);
+    color:var(--navy-deep);
+    font-weight:700;
+    font-size:14.5px;
+    padding:14px 26px;
+    border-radius:2px;
+    letter-spacing:0.02em;
+  }
+  .btn:hover{ background:#F5A417; text-decoration:none; }
+
+  footer{
+    padding:24px 0;
+    text-align:center;
+    font-size:12.5px;
+    color:#6E7B8C;
+  }
+</style>
+</head>
+<body>
+
+<main>
+  <div class="wrap">
+    <svg class="icon" viewBox="58 42 164 186" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path fill="#F6F4EF" d="M140,48 L140,132 L118,181 L101,222 L64,222 Z"/>
+      <path fill="#B7C1CE" d="M140,48 L140,132 L162,181 L179,222 L216,222 Z"/>
+      <path fill="#131E2C" d="M140,90 L188,198 L166,198 L140,140 L114,198 L92,198 Z"/>
+      <path fill="#FF9142" d="M140,112 L140,188 L114,198 Z"/>
+      <path fill="#D9600A" d="M140,112 L140,188 L166,198 Z"/>
+    </svg>
+
+    <p class="eyebrow">Message sent</p>
+    <h1>Thanks — we've got it</h1>
+    <p>Your message has been sent through to our team. We'll be in touch shortly.</p>
+    <a href="index.html" class="btn">Back to home</a>
+  </div>
+</main>
+
+<footer>
+  © 2026 ATLAS Labour Force Pty Ltd. ABN 38 700 039 121.
+</footer>
+
+</body>
+</html>
